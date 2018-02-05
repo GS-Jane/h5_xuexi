@@ -1,0 +1,482 @@
+.head_t {
+  height: 30px;
+  background-color: #FF5073;
+  color: #fff;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.head_t a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.head_t .head_tl li {
+  float: left;
+  padding-left: 3px;
+}
+
+.head_t .head_tr li {
+  float: left;
+  padding-right: 20px;
+}
+
+#logo {
+  height: 90px;
+}
+
+#logo .container {
+  position: relative;
+}
+
+#logo .container .logo_tu {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+
+#logo .container .logo_sou {
+  border: 1px solid #FF5073;
+  width: 420px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 20px;
+  position: absolute;
+  top: 20px;
+  left: 410px;
+}
+
+#logo .container .logo_sou .search {
+  width: 330px;
+  height: 34px;
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  border: none;
+}
+
+#logo .container .logo_sou .sou {
+  position: absolute;
+  top: 10px;
+  left: 390px;
+  background-color: #fff;
+  color: #FF5073;
+}
+
+#logo .container .erwm img {
+  position: absolute;
+  top: 1px;
+  right: 46px;
+}
+
+#nav {
+  height: 45px;
+  border-top: 1px solid #DDDDDD;
+}
+
+#nav .nav_dao li {
+  padding-top: 20px;
+  padding-right: 30px;
+  line-height: 24px;
+  float: left;
+}
+
+#nav .nav_dao li a {
+  margin-left: 20px;
+}
+
+#nav .nav_one {
+  background-color: #F2F2F2;
+  position: relative;
+  width: 150px;
+}
+
+#nav .nav_one .nav_one_lei {
+  position: absolute;
+  background-color: #7B5E69;
+  width: 150px;
+  height: 480px;
+  left: 0px;
+  top: 45px;
+  text-align: center;
+  font-size: 14px;
+  z-index: 9999;
+}
+
+#nav .nav_one .nav_one_lei li {
+  width: 150px;
+}
+
+#nav .nav_one .nav_one_lei a {
+  padding-left: 4px;
+  color: #fff;
+}
+
+#nav .nav_one .nav_one_lei .mianmo {
+  position: relative;
+}
+
+#nav .nav_one .nav_one_lei .mianmo .mianmo_m {
+  position: absolute;
+  width: 150px;
+  height: 480px;
+  top: 0px;
+  left: 150px;
+  background-color: #fff;
+  display: none;
+}
+
+#nav .nav_one .nav_one_lei .jiemian {
+  position: relative;
+}
+
+#nav .nav_one .nav_one_lei .jiemian .jiemian_m {
+  position: absolute;
+  width: 150px;
+  height: 480px;
+  top: -44px;
+  left: 150px;
+  background-color: #fff;
+  display: none;
+}
+
+#nav .nav_one .nav_one_lei .shuiru {
+  position: relative;
+}
+
+#nav .nav_one .nav_one_lei .shuiru .shuiru_m {
+  position: absolute;
+  width: 150px;
+  height: 480px;
+  top: -88px;
+  left: 150px;
+  background-color: #fff;
+  display: none;
+}
+
+#nav .nav_one .nav_one_lei .geren {
+  position: relative;
+}
+
+#nav .nav_one .nav_one_lei .geren .geren_m {
+  position: absolute;
+  width: 150px;
+  height: 480px;
+  top: -132px;
+  left: 150px;
+  background-color: #fff;
+  display: none;
+}
+
+#nav .nav_one .nav_one_lei .dizhuan {
+  position: relative;
+}
+
+#nav .nav_one .nav_one_lei .dizhuan .dizhuan_m {
+  position: absolute;
+  width: 150px;
+  height: 480px;
+  top: -176px;
+  left: 150px;
+  background-color: #fff;
+  display: none;
+}
+
+#nav .nav_one .nav_one_lei .yancun {
+  position: relative;
+}
+
+#nav .nav_one .nav_one_lei .yancun .yancun_m {
+  position: absolute;
+  width: 150px;
+  height: 480px;
+  top: -220px;
+  left: 150px;
+  background-color: #fff;
+  display: none;
+}
+
+#nav .nav_one .nav_one_lei .meijia {
+  position: relative;
+}
+
+#nav .nav_one .nav_one_lei .meijia .meijia_m {
+  position: absolute;
+  width: 150px;
+  height: 480px;
+  top: -264px;
+  left: 150px;
+  background-color: #fff;
+  display: none;
+}
+
+#nav .nav_one .nav_one_lei .meihu {
+  position: relative;
+}
+
+#nav .nav_one .nav_one_lei .meihu .meihu_m {
+  position: absolute;
+  width: 150px;
+  height: 480px;
+  top: -308px;
+  left: 150px;
+  background-color: #fff;
+  display: none;
+}
+
+#nav .nav_one .nav_one_lei .mianmo:hover {
+  background-color: #fff;
+}
+
+#nav .nav_one .nav_one_lei .mianmo:hover a {
+  color: #666;
+}
+
+#nav .nav_one .nav_one_lei .jiemian:hover {
+  background-color: #fff;
+}
+
+#nav .nav_one .nav_one_lei .jiemian:hover a {
+  color: #666;
+}
+
+#nav .nav_one .nav_one_lei .shuiru:hover {
+  background-color: #fff;
+}
+
+#nav .nav_one .nav_one_lei .shuiru:hover a {
+  color: #666;
+}
+
+#nav .nav_one .nav_one_lei .geren:hover {
+  background-color: #fff;
+}
+
+#nav .nav_one .nav_one_lei .geren:hover a {
+  color: #666;
+}
+
+#nav .nav_one .nav_one_lei .dizhuan:hover {
+  background-color: #fff;
+}
+
+#nav .nav_one .nav_one_lei .dizhuan:hover a {
+  color: #666;
+}
+
+#nav .nav_one .nav_one_lei .yancun:hover {
+  background-color: #fff;
+}
+
+#nav .nav_one .nav_one_lei .yancun:hover a {
+  color: #666;
+}
+
+#nav .nav_one .nav_one_lei .meijia:hover {
+  background-color: #fff;
+}
+
+#nav .nav_one .nav_one_lei .meijia:hover a {
+  color: #666;
+}
+
+#nav .nav_one .nav_one_lei .meihu:hover {
+  background-color: #fff;
+}
+
+#nav .nav_one .nav_one_lei .meihu:hover a {
+  color: #666;
+}
+
+#nav .nav_one .nav_one_lei .mianmo:hover .mianmo_m {
+  display: block;
+  background-color: #fff;
+}
+
+#nav .nav_one .nav_one_lei .jiemian:hover .jiemian_m {
+  display: block;
+  background-color: #fff;
+}
+
+#nav .nav_one .nav_one_lei .shuiru:hover .shuiru_m {
+  display: block;
+  background-color: #fff;
+}
+
+#nav .nav_one .nav_one_lei .geren:hover .geren_m {
+  display: block;
+  background-color: #fff;
+}
+
+#nav .nav_one .nav_one_lei .dizhuan:hover .dizhuan_m {
+  display: block;
+  background-color: #fff;
+}
+
+#nav .nav_one .nav_one_lei .yancun:hover .yancun_m {
+  display: block;
+  background-color: #fff;
+}
+
+#nav .nav_one .nav_one_lei .meijia:hover .meijia_m {
+  display: block;
+  background-color: #fff;
+}
+
+#nav .nav_one .nav_one_lei .meihu:hover .meihu_m {
+  display: block;
+  background-color: #fff;
+}
+
+#nav .pony {
+  position: relative;
+}
+
+#nav .pony .pony_p {
+  font-size: 12px;
+  width: 215px;
+  height: 320px;
+  position: absolute;
+  left: -20px;
+  background-color: #fff;
+  display: none;
+  border-right: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+#nav .pony:hover .pony_p {
+  display: block;
+}
+
+#nav .meimeizhuan {
+  position: relative;
+}
+
+#nav .meimeizhuan .meimeizhuan_z {
+  font-size: 12px;
+  width: 180px;
+  height: 160px;
+  position: absolute;
+  left: -20px;
+  background-color: #fff;
+  display: none;
+  border-right: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+#nav .meimeizhuan:hover .meimeizhuan_z {
+  display: block;
+}
+
+#nav .meme {
+  position: relative;
+}
+
+#nav .meme .meme_z {
+  font-size: 12px;
+  width: 180px;
+  height: 410px;
+  position: absolute;
+  left: -10px;
+  background-color: #fff;
+  display: none;
+  border-right: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+#nav .meme .meme_z li {
+  line-height: 14px;
+}
+
+#nav .meme:hover .meme_z {
+  display: block;
+}
+
+#mbar {
+  width: 40px;
+  height: 100%;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  z-index: 999;
+}
+
+#mbar .mbar_main {
+  width: 40px;
+  height: 100%;
+  position: absolute;
+  background: rgba(3, 3, 3, 0.5);
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+
+#mbar .mbar_main .mbar_main_top {
+  position: absolute;
+  top: 50%;
+  margin-top: -190px;
+  left: 0;
+  z-index: 2;
+}
+
+#mbar .mbar_main .mbar_main_top a {
+  color: #fff;
+}
+
+#mbar .mbar_main .mbar_main_top .mbar_gouwuche {
+  padding-bottom: 20px;
+  height: 123px;
+  position: absolute;
+  width: 40px;
+  padding-left: 10px;
+  top: 20px;
+}
+
+#mbar .mbar_main .mbar_main_top .me-login {
+  position: absolute;
+  top: 135px;
+  height: 38px;
+  width: 40px;
+  padding-left: 10px;
+}
+
+#mbar .mbar_main .mbar_main_top .shouc {
+  position: absolute;
+  top: 188px;
+  padding-left: 10px;
+  height: 38px;
+  width: 40px;
+}
+
+#mbar .mbar_main .mbar_main_top .dingd {
+  position: absolute;
+  top: 233px;
+  padding-left: 10px;
+  height: 38px;
+  width: 40px;
+}
+
+#mbar .mbar_main .mbar_button {
+  position: absolute;
+  bottom: 46px;
+  left: 0;
+  width: 40px;
+  z-index: 1;
+}
+
+#mbar .mbar_main .mbar_button a {
+  color: #FFF;
+}
+
+#mbar .mbar_main .mbar_button .kefu {
+  position: absolute;
+  bottom: 50px;
+  padding-left: 10px;
+  height: 38px;
+  width: 40px;
+}
+
+#mbar .mbar_main .mbar_button .fanhui {
+  position: absolute;
+  bottom: -36px;
+  padding-left: 10px;
+  height: 38px;
+  width: 40px;
+}

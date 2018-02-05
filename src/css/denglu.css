@@ -1,0 +1,61 @@
+#logo {
+  overflow-x: hidden;
+}
+
+#logo h1 {
+  padding: 30px 0;
+}
+
+#dl {
+  overflow-x: hidden;
+  position: relative;
+}
+
+#dl .shuru {
+  background-color: #fff;
+  width: 400px;
+  height: 350px;
+  position: absolute;
+  right: 80px;
+  top: 55px;
+  padding: 30px 30px 0 30px;
+}
+
+#dl .shuru p {
+  margin-bottom: 38px;
+  width: 160px;
+  font-size: 16px;
+}
+
+#dl .shuru .mian {
+  width: 120px;
+  color: #3d86f4;
+  font-size: 16px;
+  margin-bottom: 38px;
+}
+
+#dl .shuru .shuru_s li {
+  padding-bottom: 20px;
+}
+
+#dl .shuru .shuru_s input {
+  width: 340px;
+  height: 40px;
+  border: 1px solid #ddd;
+  padding-left: 10px;
+}
+
+#dl .shuru .shuru_kon {
+  width: 350px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+#dl .shuru .san {
+  padding-top: 8px;
+  border-top: 1px solid #ddd;
+}
+
+#dl .shuru .san a {
+  padding-left: 26px;
+}

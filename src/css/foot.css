@@ -1,0 +1,26 @@
+#footer-container .footer-row-first {
+  height: 190px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #f3f1f2;
+}
+
+#footer-container .footer-row-first .f-l {
+  padding: 40px 0;
+  width: 25%;
+  text-align: center;
+}
+
+#footer-container .footer-row-secondary {
+  padding: 40px 0;
+}
+
+#footer-container .footer-sec-wrap .footer-sec-wrap-first {
+  width: 37%;
+  float: left;
+}
+
+#footer-container .footer-sec-wrap .footer-sec-wrap-sec {
+  width: 63%;
+  float: left;
+}
