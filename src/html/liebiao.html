@@ -2,16 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>美美湘</title>
-    <link rel="stylesheet" type="text/css" href="css/base.css" />
-    <link rel="stylesheet" type="text/css" href="css/head.css" />
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <link rel="stylesheet" type="text/css" href="css/foot.css" />
-    <link rel="stylesheet" href="lib/jquery-yjCarousel/jquery.yjCarousel.css">
-</head>   
+    <title>列表页</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/head.css" />
+    <link rel="stylesheet" type="text/css" href="../css/foot.css" />
+    <link rel="stylesheet" type="text/css" href="../css/liebiao.css" />
+</head>
 <body>
-    <div class="shouye">
-        <div id="head">
+    <div id="head">
             <div class="head_t">
                 <div class="container clearfix">
                     <ul class="head_tl fl">
@@ -22,20 +20,20 @@
                         </li>
                     </ul>
                     <ul class="head_tr fr">
-                        <li><a href="html/denglu.html">登录</a></li>
-                        <li><a href="html/zhuce.html">注册</a></li>
+                        <li><a href="denglu.html">登录</a></li>
+                        <li><a href="zhuce.html">注册</a></li>
                         <li>|</li>
                         <li><a href="#"><i class="iconfont icon-icon"></i>手机APP</a></li>
                         <li><a href="#"><i class="iconfont icon-ico_zaixiankefu"></i>在线客服</a></li>
                     </ul>
                 </div>
             </div>
-        </div>
-        <div id="logo">
+    </div>
+    <div id="logo">
             <div class="container">
                 <h1 class="logo_tu ">
                     <a href="#">                      
-                        <img src="img/loog.png"/>
+                        <img src="../img/loog.png"/>
                     </a>                       
                 </h1>
                 <div class="logo_sou">                  
@@ -44,16 +42,16 @@
                     </button>                    
                 </div>
                 <div class="erwm">
-                    <img src="img/erwm.png" >         
+                    <img src="../img/erwm.png" >         
                 </div>
             </div> 
-        </div>
-        <div id="nav">
+    </div>
+    <div id="nav">
             <div class="container">
                 <ul class="nav_dao">
                     <li class="nav_one">
                         <a href="#"><i class="iconfont icon-shangpinfenlei"></i>商品分类</a>
-                        <div class="nav_one_lei">
+                        <div class="nav_one_lei" style="display:none;">
                             <ul>
                                 <li class="mianmo">
                                     <a href="#">面膜</a>
@@ -212,8 +210,8 @@
                     <li><a href="#">K-BEAUTY STYLE</a></li>                    
                 </ul>
             </div>            
-        </div>
-        <div id="mbar">
+    </div>
+    <div id="mbar">
             <div class="mbar_main">
                 <ul class="mbar_main_top">
                     <li class="mbar_gouwuche">
@@ -246,14 +244,23 @@
                 </ul>
                 
             </div>
-        </div>
-        <div id="lunbotu">
-            <div class="container"> 
-                <div class="box"> 
-                </div>               
-            </div>           
-        </div>
-        <div id="footer-container">  
+    </div>
+    <div id="main">
+        <div class="container">
+            <div class="main_t">
+                <p class="qty fl">个商品</p>
+                <div class="fs fl">
+                    <label>排列方式</label>
+                    <select>
+                        <option value="">推荐</option>}
+                        <option value="">价格</option>
+                    </select>
+                    <a href="#"><i class="iconfont icon-gou"></i></a>
+                </div>
+            </div>  
+        </div> 
+    </div>
+    <div id="footer-container">  
             <div class="footer-row-first">
                 <div class="container">
                     <div class="f-l fl">
@@ -284,13 +291,9 @@
             </div>
             <div class="foot_center">
                 <div class="container">
-                    <img src="img/foot.png"  />             
+                    <img src="../img/foot.png"  />             
                 </div>
             </div>      
-        </div>
     </div>
 </body>
-    <script src="lib/jquery-3.2.1.js"></script>
-    <script src="lib/jquery-yjCarousel/jquery.yjCarousel.js"></script>
-    <script src="js/index.js"></script>
 </html>

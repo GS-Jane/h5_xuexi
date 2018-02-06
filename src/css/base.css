@@ -10,7 +10,7 @@ textarea { resize:none; } /*防止拖动*/
 img {border:0; vertical-align:middle; }  
 /*  去掉图片低测默认的3像素空白缝隙，或者用display：block也可以*/
 table { border-collapse:collapse; }
-
+body{width: 100%;}
 
 /*添加公共样式*/
 /*body {
@@ -61,7 +61,9 @@ s,i,em{font-style:normal;text-decoration:none;}
 .font16{ font-size: 16px;}
 *{box-sizing:border-box;}
 /*公共部分*/
-
+.shouye{
+  width: 100%;
+}
 
 
 /*字体*/

@@ -2,16 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>美美湘</title>
-    <link rel="stylesheet" type="text/css" href="css/base.css" />
-    <link rel="stylesheet" type="text/css" href="css/head.css" />
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <link rel="stylesheet" type="text/css" href="css/foot.css" />
-    <link rel="stylesheet" href="lib/jquery-yjCarousel/jquery.yjCarousel.css">
-</head>   
+    <title>商品详情</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/head.css" />
+    <link rel="stylesheet" type="text/css" href="../css/foot.css" />
+    <link rel="stylesheet" type="text/css" href="../css/spxq.css" />
+</head>
 <body>
-    <div class="shouye">
-        <div id="head">
+    <div id="head">
             <div class="head_t">
                 <div class="container clearfix">
                     <ul class="head_tl fl">
@@ -30,12 +28,12 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        <div id="logo">
+    </div>
+    <div id="logo">
             <div class="container">
                 <h1 class="logo_tu ">
                     <a href="#">                      
-                        <img src="img/loog.png"/>
+                        <img src="../img/loog.png"/>
                     </a>                       
                 </h1>
                 <div class="logo_sou">                  
@@ -44,16 +42,16 @@
                     </button>                    
                 </div>
                 <div class="erwm">
-                    <img src="img/erwm.png" >         
+                    <img src="../img/erwm.png" >         
                 </div>
             </div> 
-        </div>
-        <div id="nav">
+    </div>
+    <div id="nav">
             <div class="container">
                 <ul class="nav_dao">
                     <li class="nav_one">
                         <a href="#"><i class="iconfont icon-shangpinfenlei"></i>商品分类</a>
-                        <div class="nav_one_lei">
+                        <div class="nav_one_lei" style="display:none;">
                             <ul>
                                 <li class="mianmo">
                                     <a href="#">面膜</a>
@@ -212,8 +210,8 @@
                     <li><a href="#">K-BEAUTY STYLE</a></li>                    
                 </ul>
             </div>            
-        </div>
-        <div id="mbar">
+    </div>
+    <div id="mbar">
             <div class="mbar_main">
                 <ul class="mbar_main_top">
                     <li class="mbar_gouwuche">
@@ -246,51 +244,61 @@
                 </ul>
                 
             </div>
-        </div>
-        <div id="lunbotu">
-            <div class="container"> 
-                <div class="box"> 
-                </div>               
-            </div>           
-        </div>
-        <div id="footer-container">  
-            <div class="footer-row-first">
-                <div class="container">
-                    <div class="f-l fl">
-                        <img src="http://cn.memebox.com/skin/frontend/ultimo/default/images/genuine.png" alt="">
-                        <div class="first-co">
-                            100%正品
-                        </div>
-                    </div>
-                    <div class="f-l fl">
-                        <img src="http://cn.memebox.com/skin/frontend/ultimo/default/images/low.png" alt="">
-                        <div class="first-co">
-                            优质低价
-                        </div>
-                    </div>
-                    <div class="f-l fl">
-                        <img src="http://cn.memebox.com/skin/frontend/ultimo/default/images/deliver.png" alt="">
-                        <div class="first-co">
-                            极速发货
-                        </div>
-                    </div>
-                    <div class="f-l fl">
-                        <img src="http://cn.memebox.com/skin/frontend/ultimo/default/images/refund.png" alt="">
-                        <div class="first-co">
-                            退换无忧
-                        </div>
-                    </div>
+    </div>
+    <div id="main">
+        <div class="container clearfix">
+            <div class="main_m">
+                <div class="datu fl">
+                    <img src="undefined" class="tuli" />   
                 </div>
+                <div class="neir fl">
+                    <div class="neir_h1"><h1>undefinded</h1></div>
+                    <div class="jiage">
+                        <div class="jiage_1">
+                            <span>价格&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            <span class="jiage_qty">111</span>
+                        </div>
+                        <div class="jiage_2">
+                            <span>促销价</span>
+                            <span class="jiage_qty">111</span>
+                            <span class="zhe">8.1折</span>
+                        </div> 
+                    </div>
+                    <div class="fan">
+                        <span class="fan_f">返</span>
+                        <span>最高可返 <a href="#">登录后可返</a> 蜜豆</span>  
+                    </div>
+                    <div class="youji">
+                        <span>邮费</span>
+                        <span class="youji_m">满399免邮</span>    
+                    </div>
+                    <div class="qty">
+                        <span>数量</span>
+                        <a href="#" class="jian">-</a>
+                        <input type="text" class="qty_s" value="1"/>
+                        <a href="#" class="jia">+</a>
+                        <span>库存：有货</span>     
+                    </div>
+                    <div class="shouc">
+                        <a href="#">
+                            <button>
+                                <span>加入收藏</span>
+                            </button>
+                        </a>
+                        <a href="#">
+                            <button>
+                                <span>加入购物车</span>
+                            </button>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+                
             </div>
-            <div class="foot_center">
-                <div class="container">
-                    <img src="img/foot.png"  />             
-                </div>
-            </div>      
+            
         </div>
+        
     </div>
 </body>
-    <script src="lib/jquery-3.2.1.js"></script>
-    <script src="lib/jquery-yjCarousel/jquery.yjCarousel.js"></script>
-    <script src="js/index.js"></script>
 </html>
