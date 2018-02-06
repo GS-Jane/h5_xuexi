@@ -1,0 +1,43 @@
+#logo {
+  position: relative;
+}
+
+#logo h1 {
+  padding: 30px 0;
+}
+
+#logo .logo {
+  position: absolute;
+  left: 10px;
+}
+
+#logo .gwc {
+  position: absolute;
+  right: 10px;
+}
+
+#main {
+  padding-top: 30px;
+}
+
+#main .main-t {
+  border: 1px solid #ddd;
+  height: 47px;
+  line-height: 47px;
+}
+
+#main .main-t .xin {
+  margin-left: 10px;
+  width: 330px;
+}
+
+#main .main-t .xin input {
+  height: 18px;
+  width: 18px;
+  margin-right: 10px;
+  background-color: #fff;
+}
+
+#main .main-t .ge span {
+  margin: 0 60px;
+}
