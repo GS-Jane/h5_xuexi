@@ -4,7 +4,7 @@
 		var defaults = {
 			// 放大区域的宽高
 			width:500,
-			height:500,
+			height:300,
 
 			// 显示位置
 			position:'right',//left,top,bottom,right

@@ -11,15 +11,15 @@
 }
 
 #main .main_sp .splb li h3 {
-  padding-left: 60px;
+  padding-left: 24px;
 }
 
 #main .main_sp .splb li h4 {
-  padding-left: 60px;
+  padding-left: 24px;
 }
 
 #main .main_sp .splb li .main_sp_button .xj {
-  padding-left: 60px;
+  padding-left: 20px;
   width: 71px;
   height: 62px;
   line-height: 44px;
@@ -28,7 +28,7 @@
 }
 
 #main .main_sp .splb li .main_sp_button .yj {
-  padding-left: 80px;
+  padding-left: 40px;
 }
 
 #main .main_sp .splb li .main_sp_button .yj .yj_1 {
@@ -42,7 +42,7 @@
 }
 
 #main .main_sp .splb li .main_sp_button .main-btn {
-  margin-left: 36px;
+  margin-left: 20px;
   width: 124px;
   height: 61px;
   background-color: #fd81c1;

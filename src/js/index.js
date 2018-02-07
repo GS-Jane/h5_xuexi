@@ -30,11 +30,11 @@ document.addEventListener('DOMContentLoaded',function(){
     let xhr = new XMLHttpRequest();
      xhr.onreadystatechange = function(){
         if(xhr.readyState === 4 && arr_status.includes(xhr.status)){
-            var data = JSON.parse(xhr.responseText);console.log(data);
+            var data = JSON.parse(xhr.responseText);
             splb.innerHTML = data.map(function(item){
                 return `
                     <li class="splb-li" data-id="${item.id}">
-                                <a href="#">
+                                <a href="javascript:0;">
                                     <img src= '${item.imgs}'>
                                     <h4>${item.category}</h4>
                                     <h3>${item.name}</h3>
@@ -54,4 +54,13 @@ document.addEventListener('DOMContentLoaded',function(){
     };
     xhr.open('get','../api/index.php',true);
     xhr.send();
+
+
+    
+    $('.splb').on('click','li',function(){
+        var $sp = $(this).attr('data-id')
+        location.href = 'html/spxq.html?id=' + $sp;  
+    })
+    
+
 });
