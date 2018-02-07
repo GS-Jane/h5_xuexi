@@ -3,8 +3,8 @@
 		// 默认值
 		var defaults = {
 			// 放大区域的宽高
-			width:400,
-			height:300,
+			width:500,
+			height:500,
 
 			// 显示位置
 			position:'right',//left,top,bottom,right

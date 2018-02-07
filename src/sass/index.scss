@@ -3,3 +3,51 @@
     background:url(../img/datu.jpg);
     height: 480px;
 }
+
+
+#main{
+    .main_sp{
+        .splb{
+            li{
+                margin:10px;
+                float:left;
+                width:385px;
+                h3{padding-left:60px;}
+                h4{padding-left:60px;}
+                .main_sp_button{
+                    
+                    .xj{
+                        padding-left:60px;
+                        width: 71px;
+                        height: 62px;
+                        line-height:44px;
+                        color:#f90;font-size:20px
+                    }
+                    .yj{
+                        padding-left:80px;
+                        .yj_1{
+                            color:#ddd;
+                            font-size:16px;
+                        }
+                        .yj_2{color:#fd81c1;font-size:12px;}
+                    }
+                    .main-btn{
+                            margin-left:36px;
+                            width: 124px;
+                            height: 61px;
+                            background-color:#fd81c1;
+                            color:#fff;
+                            font-size:20px;
+                        }
+                }
+                
+            }
+            
+            li:hover{
+               
+                box-shadow: 10px 10px 5px #888888;
+            }
+        }
+        
+    }
+}

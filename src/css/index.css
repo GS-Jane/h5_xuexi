@@ -3,3 +3,53 @@
   background: url(../img/datu.jpg);
   height: 480px;
 }
+
+#main .main_sp .splb li {
+  margin: 10px;
+  float: left;
+  width: 385px;
+}
+
+#main .main_sp .splb li h3 {
+  padding-left: 60px;
+}
+
+#main .main_sp .splb li h4 {
+  padding-left: 60px;
+}
+
+#main .main_sp .splb li .main_sp_button .xj {
+  padding-left: 60px;
+  width: 71px;
+  height: 62px;
+  line-height: 44px;
+  color: #f90;
+  font-size: 20px;
+}
+
+#main .main_sp .splb li .main_sp_button .yj {
+  padding-left: 80px;
+}
+
+#main .main_sp .splb li .main_sp_button .yj .yj_1 {
+  color: #ddd;
+  font-size: 16px;
+}
+
+#main .main_sp .splb li .main_sp_button .yj .yj_2 {
+  color: #fd81c1;
+  font-size: 12px;
+}
+
+#main .main_sp .splb li .main_sp_button .main-btn {
+  margin-left: 36px;
+  width: 124px;
+  height: 61px;
+  background-color: #fd81c1;
+  color: #fff;
+  font-size: 20px;
+}
+
+#main .main_sp .splb li:hover {
+  box-shadow: 10px 10px 5px #888888;
+}

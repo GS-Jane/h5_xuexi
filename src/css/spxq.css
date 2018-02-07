@@ -1,3 +1,7 @@
+.gds-zoom-big img {
+  min-width: 1000px;
+}
+
 #main {
   padding-top: 30px;
 }
