@@ -41,3 +41,90 @@
 #main .main-t .ge span {
   margin: 0 60px;
 }
+
+#carList li {
+  position: relative;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+#carList li .btn-close {
+  position: absolute;
+  top: 48px;
+  right: 160px;
+  padding: 0 5px;
+  cursor: default;
+  font-size: 30px;
+}
+
+#carList li .btn-close:hover {
+  background-color: #f00;
+  color: #fff;
+}
+
+#carList li .price span {
+  color: #f00;
+}
+
+#carList li h4 {
+  position: absolute;
+  left: 96px;
+  top: 60px;
+}
+
+#carList li .price {
+  position: absolute;
+  left: 714px;
+  top: 60px;
+}
+
+#carList li .gui {
+  position: absolute;
+  left: 408px;
+  top: 60px;
+}
+
+#carList li .jia {
+  position: absolute;
+  left: 550px;
+  top: 60px;
+}
+
+#carList li .jin {
+  position: absolute;
+  left: 870px;
+  top: 60px;
+  color: red;
+}
+
+#carList img {
+  display: block;
+  width: 110px;
+}
+
+.subPrice {
+  padding: 5px 20px;
+  color: #f00;
+  font-weight: bold;
+  text-align: right;
+}
+
+.qing {
+  background-color: #ddd;
+  height: 60px;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+
+.qing .jies {
+  height: 60px;
+  width: 200px;
+  background-color: #ff5073;
+  text-align: center;
+  color: #fff;
+}
+
+.qing .qing_g {
+  padding-left: 30px;
+}

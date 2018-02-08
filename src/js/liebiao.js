@@ -1,28 +1,5 @@
-document.addEventListener('DOMContentLoaded',function(){
-        jQuery(function($){
-                    $('.box').yjCarousel({
-                        imgs:['img/bn1.jpg','img/bn2.jpg','img/bn3.jpg','img/bn4.jpg'],
-                    }).show()
-
-                })
-         //返回顶部
-    var fanhui = document.querySelector('.fanhui');
-    fanhui.onclick = function(){
-        var timer = setInterval(function(){
-
-            var scrollTop = window.scrollY;
-
-            var speed = Math.floor(scrollTop/10);
-
-            if(scrollTop<=10 || speed === 0){
-                clearInterval(timer);
-                window.scrollTo(0,0);
-            }
-            window.scrollBy(0,-speed);
-        },30);
-    };
-
-     //数据生成商品
+jQuery(function($){
+      //数据生成商品
     var splb = document.querySelector('.splb');
     
     let arr_status = [200,304];
@@ -35,7 +12,7 @@ document.addEventListener('DOMContentLoaded',function(){
                 return `
                     <li class="splb-li" data-id="${item.id}">
                                 <a href="javascript:0;">
-                                    <img src= '${item.imgs}'>
+                                    <img src= '../${item.imgs}'>
                                     <h4>${item.category}</h4>
                                     <h3>${item.name}</h3>
                                 </a>
@@ -52,7 +29,7 @@ document.addEventListener('DOMContentLoaded',function(){
             
         }
     };
-    xhr.open('get','../api/index.php',true);
+    xhr.open('get','../api/liebiao.php',true);
     xhr.send();
 
 
@@ -61,12 +38,4 @@ document.addEventListener('DOMContentLoaded',function(){
         var $sp = $(this).attr('data-id')
         location.href = 'html/spxq.html?id=' + $sp;  
     })
-    
-      $('.mbar_gouwuche').on('click',function(){
-                // $('.box').slideToggle();
-                $('.mbar_cart').fadeToggle();
-            })
-        $('.cha').on('click',function(){
-            $('.mbar_cart').hide();
-        })
-});
+})

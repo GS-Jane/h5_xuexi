@@ -37,3 +37,60 @@
             }
     }
 }
+#carList{
+    li{
+        position:relative;
+        padding-bottom:15px;margin-bottom:15px;border-bottom:1px solid #ddd;
+
+
+        .btn-close{position:absolute;top:48px;right:160px;padding:0 5px;cursor:default;font-size:30px;}
+        .btn-close:hover{background-color:#f00;color:#fff;}
+        .price span{color:#f00;}
+        h4{
+            position:absolute;
+            left:96px;
+            top:60px;
+        }
+        .price{
+            position:absolute;
+            left:714px;
+            top:60px;
+        }
+        .gui{
+            position:absolute;
+            left:408px;
+            top:60px;
+        }
+        .jia{
+            position:absolute;
+            left:550px;
+            top:60px;
+        }
+        .jin{
+            position:absolute;
+            left:870px;
+            top:60px;
+            color:red;
+        }
+    }
+    img{display:block;width:110px;}
+    
+
+}
+.subPrice{padding:5px 20px;color:#f00;font-weight:bold;text-align:right;}
+.qing{
+    background-color:#ddd;
+    height: 60px;
+    line-height:60px;
+    margin-bottom:30px;
+    .jies{
+        height: 60px;
+        width: 200px;
+        background-color:#ff5073;
+        text-align:center;
+        color:#fff;
+    }
+    .qing_g{
+        padding-left:30px;
+    }
+}

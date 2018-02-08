@@ -6,8 +6,10 @@
     <link rel="stylesheet" type="text/css" href="../css/base.css" />
     <link rel="stylesheet" type="text/css" href="../css/head.css" />
     <link rel="stylesheet" type="text/css" href="../css/foot.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="../css/index.css" /> -->
     <link rel="stylesheet" type="text/css" href="../css/liebiao.css" />
 </head>
+
 <body>
     <div id="head">
             <div class="head_t">
@@ -241,13 +243,17 @@
                     <li class="fanhui">
                         <a href="#"><i class="iconfont icon-fanhuidingbu"></i></a>
                     </li>
-                </ul>
-                
+                </ul> 
+            </div>
+            <div class="mbar_cart">
+                <h4><span class="fl">购物车列表</span><i class="fr">X</i></h4>
+                <ul></ul>
+                <div class="mbar_cart_b"><a href="#">去购物车结算</a></div>
             </div>
     </div>
     <div id="main">
-        <div class="container">
-            <div class="main_t">
+        <div class="container clearfix">
+            <div class="main_t ">
                 <p class="qty fl">个商品</p>
                 <div class="fs fl">
                     <label>排列方式</label>
@@ -257,6 +263,8 @@
                     </select>
                     <a href="#"><i class="iconfont icon-gou"></i></a>
                 </div>
+                <ul class="splb clearfix">
+                </ul>
             </div>  
         </div> 
     </div>
@@ -296,4 +304,7 @@
             </div>      
     </div>
 </body>
+    <script src="../lib/jquery-3.2.1.js"></script>
+    <script src="../js/spxq.js"></script>
+    <script src="../js/liebiao.js"></script>
 </html>

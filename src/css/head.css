@@ -480,3 +480,57 @@
   height: 38px;
   width: 40px;
 }
+
+#mbar .mbar_cart {
+  position: absolute;
+  left: -200px;
+  top: 0;
+  width: 200px;
+  display: none;
+  border-left: 5px rgba(0, 0, 0, 0.1) solid;
+  background-color: #fff;
+}
+
+#mbar .mbar_cart img {
+  width: 60px;
+}
+
+#mbar .mbar_cart .main_m {
+  position: relative;
+  font-size: 12px;
+}
+
+#mbar .mbar_cart .btn-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+}
+
+#mbar .mbar_cart .btn-close:hover {
+  background-color: #f00;
+  color: #fff;
+}
+
+#mbar .mbar_cart h4 {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  height: 30px;
+  line-height: 10px;
+}
+
+#mbar .mbar_cart .mbar_cart_b {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  text-align: center;
+}
+
+#mbar .mbar_cart .mbar_cart_b a {
+  display: block;
+  width: 195px;
+  height: 40px;
+  background-color: #ed145b;
+  line-height: 40px;
+  color: #fff;
+}
