@@ -11,7 +11,6 @@ jQuery(function($){
    
     $.ajax({
        url: '../api/spxq.php',
-       url: '../api/liebiao.php',
        type:'get',
        data: {
             id:params

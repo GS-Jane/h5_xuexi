@@ -47,6 +47,7 @@ document.addEventListener('DOMContentLoaded',function(){
 
             // 清除cookie：利用设置过期时间达到删除效果
             document.cookie = 'goodslist=null;expires='+now.toUTCString();
+            
 
             render();
         }
