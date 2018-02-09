@@ -1,4 +1,5 @@
 #main{
+    padding-bottom:60px;
     .main_t{
         border-top:1px solid #ddd;
         border-bottom:1px solid #ddd;
@@ -50,7 +51,13 @@
                 box-shadow: 10px 10px 5px #888888;
             }
         }
-        .page span{display:inline-block;margin:5px;width:40px;line-height:1.8;text-align: center;background-color:#dfdfdf;color:#666;}
-        .page span.active{background-color:#fc0;color:#fff;}
+            .page{
+                text-align:center;
+                  span{display:inline-block;margin:5px;width:40px;line-height:1.8;text-align: center;background-color:#dfdfdf;color:#666;}
+                .active{background-color:#fc0;color:#fff;}
+            }
+           
+        
+        
     }
 }

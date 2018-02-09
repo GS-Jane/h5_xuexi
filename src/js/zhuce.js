@@ -1,5 +1,13 @@
 jQuery(function($){
             $('.input_reg').on('click',function(){
+
+
+                var reg = /^1[34578]\d{9}$/g;
+                if(!reg.test($('#username').val())){
+                     alert('账号必须为电话号码');
+                    $('#username').focus();
+                    return false;
+                }
                 if(!$('#password').val()){
                     $('#password').focus();
                     alert('请输入密码');

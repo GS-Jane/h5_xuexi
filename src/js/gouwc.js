@@ -50,6 +50,7 @@ document.addEventListener('DOMContentLoaded',function(){
             
 
             render();
+            location.href = 'gouwc.html';
         }
 
         // 删除单个商品

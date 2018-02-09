@@ -1,3 +1,7 @@
+#main {
+  padding-bottom: 60px;
+}
+
 #main .main_t {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
@@ -63,6 +67,10 @@
   box-shadow: 10px 10px 5px #888888;
 }
 
+#main .main_t .page {
+  text-align: center;
+}
+
 #main .main_t .page span {
   display: inline-block;
   margin: 5px;
@@ -73,7 +81,7 @@
   color: #666;
 }
 
-#main .main_t .page span.active {
+#main .main_t .page .active {
   background-color: #fc0;
   color: #fff;
 }
