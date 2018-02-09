@@ -33,7 +33,7 @@ jQuery(function($){
     // xhr.open('get','../api/liebiao.php',true);
     // xhr.send();
     let pageNo = 1; 
-    let qty = 5;
+    let qty = 6;
     function getajax(){
         $.ajax({
             url: '../api/liebiao.php',

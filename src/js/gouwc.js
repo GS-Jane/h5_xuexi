@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded',function(){
         function render(){
 
             var total = 0;
-
+            console.log(6)
             // 根据数据生成html结构
             var ul = document.createElement('ul');
                 ul.innerHTML = goodslist.map(function(item){
